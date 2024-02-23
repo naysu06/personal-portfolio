@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: beige;
+}
+
+.header-wrap {
+  margin: auto;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  width: 420px;
+  height: auto;
+  border: solid;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.grade-wrap {
+  width: auto;
+  padding: 10px;
+  padding-right: 0px;
+}
+.info-wrap {
+  width: auto;
+  padding: 10px;
+}
+
+.btn-wrap {
+  text-align: center;
+}
+
+#btnSubmit {
+  cursor: pointer;
+  background-color: black;
+  transition: opacity 0.15s;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+#btnSubmit:hover {
+  opacity: 0.6;
+}
+
+#intGrade1 {
+  margin-bottom: 10px;
+}
+#intGrade2 {
+  margin-bottom: 10px;
+}
+#intGrade3 {
+  margin-bottom: 10px;
+}
+#intGrade4 {
+  margin-bottom: 10px;
+}
+#intGrade5 {
+  margin-bottom: 10px;
+}
+#txtName {
+  margin-bottom: 10px;
+}
+#txtSection {
+  margin-bottom: 10px;
+}
+#txtYearlvl {
+  margin-bottom: 10px;
+}
+
+#outputDiv {
+  padding-top: 15px;
+  text-align: center;
+  margin: auto;
+}

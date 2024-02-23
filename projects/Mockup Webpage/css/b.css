@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+
+h1,
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header-wrap {
+  width: 100%;
+  height: 100px;
+}
+
+.inner-header {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/header\(1\)-bg.jpg);
+  background-position-y: 40%;
+  background-position-x: 35%;
+}
+
+.header-title-wrap {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0;
+  line-height: 100px;
+  text-align: center;
+  font-family: 'Titan One';
+  color: #ffc46c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.section {
+  max-width: 100%;
+  height: 100%;
+}
+
+.body-title-wrap {
+  display: block;
+  width: 50%;
+  height: 60px;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.inner-section {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  column-gap: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  height: 393.33px;
+  margin-top: 5px;
+}
+
+.left-section,
+.right-section {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.left-section {
+  background-image: url(../images/tibetan-mastiff-pic.webp);
+  background-position-y: 30%;
+  background-position-x: 65%;
+  width: 80%;
+  margin: auto;
+}
+
+.right-section {
+  border: none;
+}
+
+.next-nav-wrap {
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+.nav-right-wrap {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.nav-left-wrap {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.btn-1,
+.btn-2 {
+  background-color: rgb(63, 76, 255);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-1 {
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: opacity 0.15s opacity 0.15s;
+}
+
+.btn-1:hover {
+  opacity: 0.8;
+}
+
+.btn-1:active {
+  opacity: 0.4;
+}
+
+.btn-2{
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: opacity 0.15s opacity 0.15s;
+}
+
+.btn-2:hover {
+  opacity: 0.8;
+}
+
+.btn-2:active {
+  opacity: 0.4;
+}
